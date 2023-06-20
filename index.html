@@ -1,10 +1,42 @@
 <html>
   <head>
+    <style>
+      #columns{
+        column-width:350px;
+        column-gap: 15px;
+      }
+      #columns figure{
+        display: inline-block;
+        border:1px solid rgba(0,0,0,0.2);
+        margin:0;
+        margin-bottom: 15px;
+        padding:10px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);;
+      }
+      #columns figure img{
+        width:100%;
+      }
+      #columns figure figcaption{
+        border-top:1px solid rgba(0,0,0,0.2);
+        padding:10px;
+        margin-top:11px;
+      }
+    </style>
     <meta charset="utf-8">
-    <title>제모그</title>
+    <title>91</title>
   </head>
   <body>
-    <h1>사진첩</h1>
-    <img src="/public/images/test.jpg" width="40%" />
+    <h1>91 사진첩</h1>
+    <div id="columns">
+
+    <figure>
+        <img src="/public/images/test.jpg">
+        <figcaption>이수진, 김민수, 최영훈 동굴</figcaption>
+      </figure>
+    <figure>
+        <img src="/public/images/kim1.jpg">
+        <figcaption>김민수네 차장이 힐링하라고 김민수한테 선물해줌</figcaption>
+      </figure>
+    </div>
   </body>
 </html>
